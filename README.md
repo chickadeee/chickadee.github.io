@@ -1,2 +1,2 @@
-# sherbe.github.io
+# chickadee.github.io
 personal site! for use & reference. welcome to sherbet's site!
