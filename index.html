@@ -11,14 +11,31 @@
         
         /* text */
             p {
+                font-size: 32px;
+                font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+                color: #bfbfbf;
+                line-height: 1.8;
+            }
+
+            p.bar {
                 font-size: 12px;
                 font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
                 color: #bfbfbf;
+                text-align: center;
+                width: 100%;
+                letter-spacing: 2px;
+                line-height: 2.0;
             }
         
-            a:link {
+            a {
                 color: #fcbcb5;
                 text-decoration: none;
+                
+                -o-transition: 5s;
+                -ms-transition: 5s;
+                -moz-transition: 5s;
+                -webkit-transition: 5s;
+                transition: 5s;
             }
 
             a:visited {
@@ -45,39 +62,40 @@
                 color: white;
                 background: #fcbcb5;
             }
-        /* end text*/
-        
+        /* end text
         /*start body*/
-            contentb {
+            cont {
+                top: 30%;
+                left: 20%;
                 display: block;
                 position: fixed;
-                top: 150px;
-                left: 30%;
-                width: 600px;
-                height: 500px;
-                border: 2px;
-                border-color: #fcbcb5;
-                border-style: solid;
-                background-color: #ffe5e2;
-                padding: 15px;
             }
         
-            bar {
-                display: block;
-                position: fixed;
-                float: bottom;
+            li {
+                bottom: 0px;
                 width: 100%;
-                background-color: white;
+                position: fixed;
+                display: block;
+                background-color: black;
+                padding: 10px;
             }
-                p.bar {
-                    
-                }
-        /*end body*/
+
     </style>
 </head>
 <body>
-    <contentb>
-        t
-    </contentb>
+    <!-- <a href="">⠀⠀⠀</a> -->
+    <li>
+        <p class="bar">
+            chickadee's dumb website<br>
+            <a href="https://caiohtee.tumblr.com">tumblr⠀⠀⠀</a>
+            <a href="https://twitter.com/alpluu">twitter⠀⠀⠀</a>
+            <a href="https://www.instagram.com/caiohtee/">instagram</a>
+        </p>
+    </li>
+    <cont>
+        <a href="https://chickadeee.github.io/abt">about page</a>
+        <a href="https://chickadeee.github.io/charas">characters</a><br>
+        <a href="https://chickadeee.github.io/memes">memes</a>
+    </cont>
 </body>
 </html>
